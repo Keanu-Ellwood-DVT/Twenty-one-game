@@ -1,0 +1,33 @@
+{
+  "name": "congenial-waffle",
+  "version": "1.0.0",
+  "description": "\u0016\u0016Blackjack is a card game between ne or more players and a dealer where each player in turn completes with the dealer. The game is played with a deck of 52 cards. The goal of the game is to beat the dealer's hand, without going over 21. ",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keanu-Ellwood-DVT/congenial-waffle.git"
+  },
+  "keywords": [
+    "blackjack",
+    "card-game",
+    "cards",
+    "deck",
+    "game",
+    "twenty-one"
+  ],
+  "author": "Keanu Ellwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keanu-Ellwood-DVT/congenial-waffle/issues"
+  },
+  "homepage": "https://github.com/Keanu-Ellwood-DVT/congenial-waffle#readme",
+  "dependencies": {
+    "concurrent": "^0.3.2",
+    "nodemon": "^2.0.2"
+  }
+}
