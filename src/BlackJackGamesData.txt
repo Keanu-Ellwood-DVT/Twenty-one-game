@@ -1,0 +1,3 @@
+King:Spades:10,Ace:Spades:1:11,Pip:Hearts:3
+King:Spades:10,Ace:Spades:1:11,Pip:Hearts:3,Queen:Hearts:10
+King:Spades:10
