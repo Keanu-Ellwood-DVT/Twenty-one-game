@@ -5,5 +5,6 @@ var GameResult;
     GameResult["Win"] = "W";
     GameResult["Loss"] = "L";
     GameResult["Draw"] = "D";
+    GameResult["Bust"] = "B";
 })(GameResult = exports.GameResult || (exports.GameResult = {}));
 ;

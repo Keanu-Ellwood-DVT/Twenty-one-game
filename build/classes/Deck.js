@@ -24,7 +24,7 @@ var Deck = /** @class */ (function () {
         // //console.log('Deck length :', newDeck.length);
         // let shuffledDeck = this.shuffleDeck(newDeck);
         var shuffledDeck = this.shuffleDeck(this.createDeck());
-        console.log("Shuffled Deck :", shuffledDeck);
+        //console.log("Shuffled Deck :", shuffledDeck);
         this.returnDeck = shuffledDeck;
         //console.log('Shuffled Deck length :', shuffledDeck.length);
     }
@@ -61,6 +61,7 @@ var Deck = /** @class */ (function () {
             arrayParam[j] = arrayParam[i];
             arrayParam[i] = temp;
         }
+        console.log("The deck has been shuffled");
         return arrayParam;
     };
     return Deck;

@@ -1,3 +1,5 @@
 King:Spades:10,Ace:Spades:1:11,Pip:Hearts:3
+King:Spades:10,Ace:Spades:1:11,Pip:Hearts:3,Ace:Shrubs:1:11,Queen:Hearts:10
+King:Spades:10,Ace:Spades:1:11,King:Hearts:10,Pip:Shrubs:5,Queen:Hearts:10
 King:Spades:10,Ace:Spades:1:11,Pip:Hearts:3,Queen:Hearts:10
 King:Spades:10
