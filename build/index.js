@@ -1,4 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Deck_1 = require("./classes/Deck");
-new Deck_1.Deck();
+var GameReader_1 = require("./fileReaders/GameReader");
+var Blackjack_1 = require("./classes/Blackjack");
+var blackjackDeck = new Deck_1.Deck();
+console.log(blackjackDeck);
+var deck = blackjackDeck.returnDeck;
+var gameReader = GameReader_1.GameReader.gamesFromTextFile("src/BlackJackGamesData.txt");
+var blackjack = new Blackjack_1.Blackjack(gameReader.returnGames(), deck);
+blackjack.initializeGames();

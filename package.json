@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Keanu-Ellwood-DVT/congenial-waffle#readme",
   "dependencies": {
+    "@types/node": "^13.7.7",
     "concurrent": "^0.3.2",
     "nodemon": "^2.0.2"
   }
